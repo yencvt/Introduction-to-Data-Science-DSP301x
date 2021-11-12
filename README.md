@@ -1,5 +1,5 @@
 # Introduction-to-Data-Science-DSP301x
-#Tên dự án: Tính toán và phân tích điểm thi (Test Grade Calculator)
+Tên dự án: Tính toán và phân tích điểm thi (Test Grade Calculator)
 
 Tổng quan dự án
 
