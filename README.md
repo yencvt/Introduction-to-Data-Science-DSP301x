@@ -9,3 +9,14 @@ Mở các tập tin văn bản bên ngoài được yêu cầu với exception-h
 Quét từng dòng của câu trả lời bài thi để tìm dữ liệu hợp lệ và cung cấp báo cáo tương ứng
 Chấm điểm từng bài thi dựa trên tiêu chí đánh giá (rubric) được cung cấp và báo cáo
 Tạo tập tin kết quả được đặt tên thích hợp
+
+
+Hướng dẫn chạy ứng dụng
+  Đối với IDLE Python:
+    Open file 'lastname_firstname_grade_the_exams.py' -> run -> run module(F5) -> enter filename
+  Đối với JupyterLab(Jupyter NoteBook) 
+    Create new notebook -> code -> %run lastname_firstname_grade_the_exams.py -> enter filename
+  
+  Lưu ý các file dữ liệu cần mở phải để trong cùng thư mục gốc với file 'lastname_firstname_grade_the_exams.py' và có phần mở rộng là '.txt'.
+  Sau khi ứng dụng chạy thành công sẽ in ra báo cáo và lưu danh sách điểm của từng học sinh vào file '{tên file nhập vào}_grades.txt' cùng thư mục gốc với file lastname_firstname_grade_the_exams.py'.
+  Để chạy ứng dụng cần cài đặt pandas và numpy.
